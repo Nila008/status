@@ -27,7 +27,7 @@ async def on_ready():
     	await bot.change_presence(activity=discord.Streaming(name="Made by Nila", url="https://www.twitch.tv"))
     	await asyncio.sleep(5)
 	
-    	await bot.change_presence(activity=discord.Streaming(name="discord.gg/xlop", url="https://www.twitch.tv"))
+    	await bot.change_presence(activity=discord.game(name="discord.gg/xlop"))
     	await asyncio.sleep(5)
     	
     	await bot.change_presence(activity=discord.Streaming(name="CASH", url="https://www.twitch.tv"))
