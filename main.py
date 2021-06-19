@@ -22,29 +22,29 @@ async def on_ready():
     print("Everything's all ready to go~")
     while True:
     	await bot.change_presence(activity=discord.Streaming(name="Selling Nitro/token gen", url="https://www.twitch.tv"))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
     	
     	await bot.change_presence(activity=discord.Streaming(name="Made by Nila", url="https://www.twitch.tv"))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
 	
     	await bot.change_presence(activity=discord.Game(name="discord.gg/xlop"))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
     	
     	await bot.change_presence(activity=discord.Streaming(name="CASH", url="https://www.twitch.tv"))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
     	
     	await bot.change_presence(activity=discord.Streaming(name="JOIN XL NOW 25K OP FAM", url="https://www.twitch.tv"))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
     	
     	await bot.change_presence(activity=discord.Streaming(name="selling this", url="https://www.twitch.tv"))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
     	
     	await bot.change_presence(activity=discord.Streaming(name="PEACE", url="https://www.twitch.tv"))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
     	
     
     	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f'''{len(bot.guilds)} servers'''))
-    	await asyncio.sleep(5)
+    	await asyncio.sleep(2)
 
 @bot.command(name="hi")
 async def ping(ctx):
